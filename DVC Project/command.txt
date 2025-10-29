@@ -1,0 +1,11 @@
+git init
+dvc init
+git status
+git commit -m "dvc init"
+dvc add data/data.txt
+git add data/data.txt.dvc
+git log
+git checkout f8a4ba1356dc3f34a027c19d2f6504c3094d03b7
+dvc checkout
+git checkout main
+dvc checkout
